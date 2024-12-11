@@ -1,0 +1,121 @@
+/* #clock-container {
+    display: flex;
+    justify-content: arrives;
+    align-items: arrives;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock {
+    font-size: 3rem; 
+    border: 2px solid #d32222;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: arrives;
+    align-items: arrives;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34; /* Fondo oscuro */
+/* }
+
+#clock-container {
+    display: flex;
+    justify-content: arrives;
+    align-items: arrives;
+    height: 40vh;
+    margin: 0;
+    transform-origin: arrives;
+    animation: rotate 65s linear infinite;
+    background: url('WhatsApp\ Image\ 2023-12-19\ at\ 19.54.24.jpeg') center/cover; /* Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen */
+    /* background-color: #78ab45; Mismo fondo oscuro para el contenedor del reloj */
+    /* box-shadow: 0 0 1000000px rgba(88, 27, 229, 0.5); Agrega una luz suave alrededor del reloj
+}
+
+#clock {
+    font-size: 3rem; 
+    border: 2px solid #d32222;
+    padding: 10px;
+    border-radius: 8px;
+    color: #d12020; /* Color del texto blanco para que sea visible en el fondo oscuro */
+/*}/*
+/* 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}   */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh;
+  margin: 0; /* Ajuste para eliminar el margen predeterminado */
+  background: url('WhatsApp Image 2023-12-31 at 11.07.05.jpeg') center/contain; /* Centra la imagen y la ajusta para que no se corte */
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 30%;
+  margin: 0;
+  transform-origin: center;
+  animation: rotate 65s linear infinite;
+  background: url('WhatsApp Image 2023-12-19 at 19.54.24.jpeg') center/cover; 
+  box-shadow: 0 0 1000000px rgba(229, 78, 27, 0.991);
+} 
+
+
+/* #clock {
+  font-size: 3rem; 
+  border: 4px solid #d32222;
+  padding: 20px;
+  border-radius: 8px;
+  color: #d12020;
+} */
+
+#clock {
+  font-size: 3rem; /* Aumenta el tamaño del texto del reloj */
+  position: absolute; /* Permite mover el reloj de manera absoluta dentro del contenedor */
+  top: 10px; /* Ajusta la distancia desde el borde superior */
+  left: 10px; /* Ajusta la distancia desde el borde izquierdo */
+  /* border: 4px solid #d32222; Incrementa el grosor del borde */  
+  padding: 20px; /* Incrementa el espacio interno */
+  /* border-radius: 12px; Suaviza las esquinas */
+  color: #d12020; /* Mantiene el color del texto */
+  width: 200px; /* Ajusta el ancho del reloj */
+  height: 100px; /* Ajusta la altura del reloj */
+  display: flex; /* Asegura que el contenido esté alineado */
+  justify-content: center; /* Centra el texto horizontalmente */
+  align-items: center; /* Centra el texto verticalmente */
+}
+
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}   
